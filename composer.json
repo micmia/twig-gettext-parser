@@ -15,10 +15,17 @@
         "twig/extensions": "1.0.*",
         "psr/log": "~1.0"
     },
+     "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
     "autoload": {
         "psr-0": {
-            "Micmia\\": "src/"
+            "Micmia\\": "src/",
+            "Micmia\\Test": "tests/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "config": {
+        "process-timeout": "600"
+    }
 }
