@@ -1,0 +1,24 @@
+{
+    "name": "micmia/twig-gettext-parser",
+    "type": "library",
+    "description": "Twig Gettext Parser is able to extract the translation strings from twig templates for Poedit",
+    "keywords": ["twig", "gettext"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Chengbo Zhang",
+        "email": "micmia128@gmail.com"
+    }],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "~2.0",
+        "twig/twig": "~1.11",
+        "twig/extensions": "1.0.*",
+        "psr/log": "~1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Micmia\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
