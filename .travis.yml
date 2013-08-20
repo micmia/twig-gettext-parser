@@ -1,0 +1,13 @@
+# see http://about.travis-ci.org/docs/user/languages/php/ for more hints
+language: php
+
+# list any PHP version you want to test against
+php:
+  # aliased to a recent 5.5.x version
+  - 5.5
+
+script: phpunit tests/Micmia/Twig/GettextParserTest.php
+
+# configure notifications (email, IRC, campfire etc)
+notifications:
+  irc: "micmia128@gmail.com"
