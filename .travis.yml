@@ -8,6 +8,7 @@ php:
 
 script:
   - composer update
+  - phpunit
 
 # configure notifications (email, IRC, campfire etc)
 notifications:
