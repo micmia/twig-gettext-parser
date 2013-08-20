@@ -134,6 +134,6 @@ class GettextParser {
 
 	function __destruct() {
 		$filesystem = new Filesystem();
-		// 		$filesystem->remove($this->twig->getCache());
+		$filesystem->remove($this->twig->getCache());
 	}
 }
