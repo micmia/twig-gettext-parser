@@ -6,7 +6,9 @@ php:
   # aliased to a recent 5.5.x version
   - 5.5
 
-script: phpunit tests/Micmia/Twig/GettextParserTest.php
+script:
+  - composer update
+  - phpunit tests/Micmia/Twig/GettextParserTest.php
 
 # configure notifications (email, IRC, campfire etc)
 notifications:
