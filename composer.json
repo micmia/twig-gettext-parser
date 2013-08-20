@@ -1,7 +1,7 @@
 {
     "name": "micmia/twig-gettext-parser",
     "type": "library",
-    "description": "Twig Gettext Parser is able to extract the translation strings from twig templates for Poedit",
+    "description": "Twig Gettext Parser is able to extract the translation strings from twig templates for Poedit.",
     "keywords": ["twig", "gettext"],
     "license": "MIT",
     "authors": [{
