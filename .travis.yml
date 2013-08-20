@@ -8,7 +8,6 @@ php:
 
 script:
   - composer update
-  - phpunit tests/Micmia/Twig/GettextParserTest.php
 
 # configure notifications (email, IRC, campfire etc)
 notifications:
